@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "IgKxR14N45gdqjhL73ck8HfjhLIfsrgvjMIH8r6KUMFIVA1k1ZJ3QdkbbsNh/cbnSCQKnlsiuIZUqZ+nUE2hLQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Carlos\\Desktop\\Facultad 2020\\Programacion III - 2020\\TP 2 - Articulos\\TP2_CarlosTrejo\\Negocio\\Negocio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Carlos\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Carlos\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

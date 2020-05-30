@@ -1,0 +1,12 @@
+C:\Users\Carlos\Desktop\Facultad 2020\Programacion III - 2020\TP 2 - Articulos\TP2_CarlosTrejo\Dominio1\bin\Debug\Dominio1.dll
+C:\Users\Carlos\Desktop\Facultad 2020\Programacion III - 2020\TP 2 - Articulos\TP2_CarlosTrejo\Dominio1\bin\Debug\Dominio1.pdb
+C:\Users\Carlos\Desktop\Facultad 2020\Programacion III - 2020\TP 2 - Articulos\TP2_CarlosTrejo\Dominio1\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\Carlos\Desktop\Facultad 2020\Programacion III - 2020\TP 2 - Articulos\TP2_CarlosTrejo\Dominio1\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\Facultad 2020\Programacion III - 2020\TP 2 - Articulos\TP2_CarlosTrejo\Dominio1\obj\Debug\Dominio1.dll
+C:\Users\Carlos\Desktop\Facultad 2020\Programacion III - 2020\TP 2 - Articulos\TP2_CarlosTrejo\Dominio1\obj\Debug\Dominio1.pdb
+C:\Users\Carlos\Desktop\TP4 Articulos Web\Dominio1\bin\Debug\Dominio1.dll
+C:\Users\Carlos\Desktop\TP4 Articulos Web\Dominio1\bin\Debug\Dominio1.pdb
+C:\Users\Carlos\Desktop\TP4 Articulos Web\Dominio1\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\Carlos\Desktop\TP4 Articulos Web\Dominio1\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\TP4 Articulos Web\Dominio1\obj\Debug\Dominio1.dll
+C:\Users\Carlos\Desktop\TP4 Articulos Web\Dominio1\obj\Debug\Dominio1.pdb

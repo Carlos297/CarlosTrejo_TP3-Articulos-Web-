@@ -23,7 +23,7 @@ namespace ArticulosWeb
 
             List<Articulo> listaArticulo;
 
-            List<ItemCarritoCompra> listaCarrito;
+            //List<ItemCarritoCompra> listaCarrito;
 
             try
             {

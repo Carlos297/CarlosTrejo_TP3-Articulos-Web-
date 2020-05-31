@@ -20,7 +20,7 @@
             <p class="card-text"><% = articulo.Marca.Descripcion %></p>
             <p class="card-text"><% = articulo.Categoria.Descripcion %></p>
             <p class="card-text"><% = articulo.Precio %></p>
-            <a href="About.aspx?idArt=<%  %>" class="btn btn-primary">Agregar al Carrito</a>
+            
 
         </div>
 

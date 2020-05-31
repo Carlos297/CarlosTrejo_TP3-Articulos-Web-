@@ -27,6 +27,8 @@ namespace ArticulosWeb
                 //dgvar = listaArticulos;
                 //dgvPokemons.DataBind();
 
+                Session[Session.SessionID + "listaArticulos"] = listaArticulos;
+
                 //cboPokemons.DataSource = listaPokemons;
                 //cboPokemons.DataBind();
 

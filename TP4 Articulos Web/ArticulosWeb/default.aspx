@@ -36,10 +36,12 @@
                     <h5 class="card-title"><% = item.Nombre %></h5>
                     <%--<p class="card-text"><% = item.Marca.Descripcion %></p>--%>
                     <a href="Contact.aspx?idArt=<% = item.Id.ToString() %>" class="btn btn-primary">Ver Detalles</a>
+                    <a href="About.aspx?idArt=<% = item.Id.ToString() %>" class="btn btn-primary">Agregar al Carrito</a>
+                    
                 </div>
             </div>
             <% } %>
-
+                
            
 
 
@@ -68,7 +70,7 @@
     </div>
 
 
-    <a href="About.aspx<%  %>" class="btn btn-primary">Ir a ver el Carrito</a>
+    <a href="About.aspx" class="btn btn-primary">Ir a ver el Carrito</a>
 
 
     <asp:TextBox ID="txtFiltro" runat="server" Width="223px"></asp:TextBox>

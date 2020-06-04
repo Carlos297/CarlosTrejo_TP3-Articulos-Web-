@@ -16,3 +16,12 @@ C:\Users\Carlos\Desktop\TP4 Articulos Web\Negocio1\obj\Debug\Negocio.csproj.Core
 C:\Users\Carlos\Desktop\TP4 Articulos Web\Negocio1\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\Carlos\Desktop\TP4 Articulos Web\Negocio1\obj\Debug\Negocio1.dll
 C:\Users\Carlos\Desktop\TP4 Articulos Web\Negocio1\obj\Debug\Negocio1.pdb
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\Negocio1\bin\Debug\Negocio1.dll
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\Negocio1\bin\Debug\Negocio1.pdb
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\Negocio1\bin\Debug\Dominio1.dll
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\Negocio1\bin\Debug\Dominio1.pdb
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\Negocio1\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\Negocio1\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\Negocio1\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\Negocio1\obj\Debug\Negocio1.dll
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\Negocio1\obj\Debug\Negocio1.pdb

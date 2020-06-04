@@ -10,3 +10,9 @@ C:\Users\Carlos\Desktop\TP4 Articulos Web\Dominio1\obj\Debug\Dominio.csprojAssem
 C:\Users\Carlos\Desktop\TP4 Articulos Web\Dominio1\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\Carlos\Desktop\TP4 Articulos Web\Dominio1\obj\Debug\Dominio1.dll
 C:\Users\Carlos\Desktop\TP4 Articulos Web\Dominio1\obj\Debug\Dominio1.pdb
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\Dominio1\bin\Debug\Dominio1.dll
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\Dominio1\bin\Debug\Dominio1.pdb
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\Dominio1\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\Dominio1\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\Dominio1\obj\Debug\Dominio1.dll
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\Dominio1\obj\Debug\Dominio1.pdb

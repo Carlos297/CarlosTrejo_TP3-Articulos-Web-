@@ -14,38 +14,68 @@ namespace ArticulosWeb
 {
     public partial class About : Page
     {
-        public List<Articulo> listaCarritoCompras { get; set; }
+        
+        public List<ItemCarritoCompra> carritoCompras { get; set; }
 
         protected void Page_Load(object sender, EventArgs e)
         {
             try
             {
-                //lee el listado que tiene en sesion de todos los Articulos - Obtengo lista original (el listado completo) 
-                List<Articulo> listaOriginal = (List<Articulo>)Session[Session.SessionID + "listaArticulos"];
+                carritoCompras = (List<ItemCarritoCompra>)Session[Session.SessionID + "carritoCompras"];
+
+                var artQuitar = Request.QueryString["idQuitar"];
+
+                if (artQuitar != null) {
+                    
+
+                    ItemCarritoCompra articuloQuitar = carritoCompras.Find(J => J.Id == int.Parse(artQuitar));
+                    carritoCompras.Remove(articuloQuitar);
+                    Session[Session.SessionID + "carritoCompras"] = carritoCompras;
+
+
+                }
+                else if(Request.QueryString["idArt"]!=null)
+                {
+
+                    //lee el listado que tiene en sesion de todos los Articulos - Obtengo lista original (el listado completo) 
+                    List<Articulo> listaOriginal = (List<Articulo>)Session[Session.SessionID + "listaArticulos"];
+
+
+
+                    var artSeleccionado = Convert.ToInt32(Request.QueryString["idArt"]);
+                    Articulo articulo = listaOriginal.Find(J => J.Id == artSeleccionado);
+
+
+                    //Obtengo la lista del carrito de compras de la session
+                    
+
+                    if (carritoCompras == null)
+                        carritoCompras = new List<ItemCarritoCompra>();
+
+                    ItemCarritoCompra objcarrito = new ItemCarritoCompra();
+                    objcarrito.NombreProducto = articulo.Nombre;
+                    objcarrito.CodigoProducto = articulo.Codigo;
+                    objcarrito.Precio = articulo.Precio;
+                    objcarrito.imagUrl = articulo.ImagenURL;
+
+                    int aux = carritoCompras.Count();
+
+
+                    carritoCompras.Add(objcarrito);
+                    Session[Session.SessionID + "carritoCompras"] = carritoCompras;
+
+                }
+
+
 
                 
-
-                var artSeleccionado = Convert.ToInt32(Request.QueryString["idArt"]);
-                Articulo articulo = listaOriginal.Find(J => J.Id == artSeleccionado);
-
-
-                //Obtengo la lista del carrito de compras de la session
-                listaCarritoCompras = (List<Articulo>)Session[Session.SessionID + "listaCarritoCompras"];
-                
-                if (listaCarritoCompras == null)
-                    listaCarritoCompras = new List<Articulo>();
-
-
-
-                listaCarritoCompras.Add(articulo);
-                Session[Session.SessionID + "listaCarritoCompras"] = listaCarritoCompras;
 
 
 
 
 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
                 Session["Error" + Session.SessionID] = "Carrito de Compras Vacio";

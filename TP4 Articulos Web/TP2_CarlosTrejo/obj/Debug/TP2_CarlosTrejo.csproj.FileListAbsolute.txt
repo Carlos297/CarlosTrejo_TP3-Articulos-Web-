@@ -52,3 +52,21 @@ C:\Users\Carlos\Desktop\TP4 Articulos Web\TP2_CarlosTrejo\obj\Debug\TP2_CarlosTr
 C:\Users\Carlos\Desktop\TP4 Articulos Web\TP2_CarlosTrejo\obj\Debug\TP2_CarlosTrejo.csproj.CopyComplete
 C:\Users\Carlos\Desktop\TP4 Articulos Web\TP2_CarlosTrejo\obj\Debug\TP2_CarlosTrejo.exe
 C:\Users\Carlos\Desktop\TP4 Articulos Web\TP2_CarlosTrejo\obj\Debug\TP2_CarlosTrejo.pdb
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\TP2_CarlosTrejo\bin\Debug\TP2_CarlosTrejo.exe.config
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\TP2_CarlosTrejo\bin\Debug\TP2_CarlosTrejo.exe
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\TP2_CarlosTrejo\bin\Debug\TP2_CarlosTrejo.pdb
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\TP2_CarlosTrejo\bin\Debug\Dominio1.dll
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\TP2_CarlosTrejo\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\TP2_CarlosTrejo\bin\Debug\Negocio1.dll
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\TP2_CarlosTrejo\bin\Debug\Dominio1.pdb
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\TP2_CarlosTrejo\bin\Debug\Negocio1.pdb
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\TP2_CarlosTrejo\obj\Debug\TP2_CarlosTrejo.csprojAssemblyReference.cache
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\TP2_CarlosTrejo\obj\Debug\TP2_CarlosTrejo.Form1.resources
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\TP2_CarlosTrejo\obj\Debug\TP2_CarlosTrejo.frmAltaArticulo2.resources
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\TP2_CarlosTrejo\obj\Debug\TP2_CarlosTrejo.frmAltaArticulo.resources
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\TP2_CarlosTrejo\obj\Debug\TP2_CarlosTrejo.Properties.Resources.resources
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\TP2_CarlosTrejo\obj\Debug\TP2_CarlosTrejo.csproj.GenerateResource.cache
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\TP2_CarlosTrejo\obj\Debug\TP2_CarlosTrejo.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\TP2_CarlosTrejo\obj\Debug\TP2_CarlosTrejo.csproj.CopyComplete
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\TP2_CarlosTrejo\obj\Debug\TP2_CarlosTrejo.exe
+C:\Users\Carlos\Desktop\TP4 Articulos Web Entrega\CarlosTrejo_TP3-Articulos-Web-\TP4 Articulos Web\TP2_CarlosTrejo\obj\Debug\TP2_CarlosTrejo.pdb

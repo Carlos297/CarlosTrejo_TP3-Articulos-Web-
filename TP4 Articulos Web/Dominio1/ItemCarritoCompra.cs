@@ -10,10 +10,14 @@ namespace Dominio1
     {
 
         public int Id { get; set; }
-        public string Nombre { get; set; }
+        public string NombreProducto { get; set; }
+        public string CodigoProducto { get; set; }
+        public string imagUrl { get; set; }
         public int Cantidad { get; set; }
-        public double? Precio { get; set; }
-        public string ImagenURL { get; set; }
+        public decimal? Precio { get; set; }
+        public decimal? precioParcial { get; set; }  //cant * precio
+
+    
 
     }
 }

@@ -20,9 +20,9 @@
                 <td>Codigo Producto </td>
                 <td>Imagen </td>
                 <td>Precion Unitario </td>
-                <td>Cantidad </td>
                 <td>Acción </td>
-                
+
+
 
             </tr>
 
@@ -37,22 +37,27 @@
                     <img src="<% = item.imagUrl %>" width="100" height="100">
                 </td>
 
-                <td><% = item.Precio %> </td>
-                <td><% = item.Cantidad %> </td>
+                <td>$ <% = item.Precio %> </td>
+
                 <td>
                     <%--<a id="btnSumar<% = item.Id %>" href="About.aspx?idArt=<% = item.Id.ToString() %>" class="btn btn-primary" role="button">+</a>
                         <a id="btnRestar<% = item.Id %>" href="About.aspx?idArt=<% = item.Id.ToString() %>" class="btn btn-primary" role="button">-</a>--%>
-                    <a <%--id="btnEliminar<% = item.Id %>"--%> href="About.aspx?idQuitar=<% = item.Id.ToString() %>" class="btn btn-primary" role="button">Eliminar</a>
+                    <a href="About.aspx?idQuitar=<% = item.Id.ToString() %>" class="btn btn-primary">Eliminar</a>
+                    
+                   
                 </td>
+                
 
             </tr>
-
+                
 
             <% } %>
         </table>
 
         <a href="Default.aspx" class="btn btn-primary">Continuar Comprando</a>
         <h3>Articulos en el carrito:  <% = carritoCompras.Count() %>  </h3>
+        <h3>Total a Pagar:  <%   %>  </h3>
+        
 
 
 

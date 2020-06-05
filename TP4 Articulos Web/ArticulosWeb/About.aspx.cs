@@ -22,6 +22,7 @@ namespace ArticulosWeb
             try
             {
                 carritoCompras = (List<ItemCarritoCompra>)Session[Session.SessionID + "carritoCompras"];
+                
 
                 var artQuitar = Request.QueryString["idQuitar"];
 
@@ -31,6 +32,7 @@ namespace ArticulosWeb
                     ItemCarritoCompra articuloQuitar = carritoCompras.Find(J => J.Id == int.Parse(artQuitar));
                     carritoCompras.Remove(articuloQuitar);
                     Session[Session.SessionID + "carritoCompras"] = carritoCompras;
+                    
 
 
                 }
@@ -53,16 +55,27 @@ namespace ArticulosWeb
                         carritoCompras = new List<ItemCarritoCompra>();
 
                     ItemCarritoCompra objcarrito = new ItemCarritoCompra();
+                    objcarrito.Id = articulo.Id;
                     objcarrito.NombreProducto = articulo.Nombre;
                     objcarrito.CodigoProducto = articulo.Codigo;
                     objcarrito.Precio = articulo.Precio;
                     objcarrito.imagUrl = articulo.ImagenURL;
+                    
+                    
 
-                    int aux = carritoCompras.Count();
+
+                   // int aux = carritoCompras.Count();
 
 
                     carritoCompras.Add(objcarrito);
                     Session[Session.SessionID + "carritoCompras"] = carritoCompras;
+
+                    foreach ( var  aux in carritoCompras)
+                    {
+                        //decimal total = 0; 
+                        //total += decimal (carritoCompras[aux.Precio]);
+
+                    }
 
                 }
 

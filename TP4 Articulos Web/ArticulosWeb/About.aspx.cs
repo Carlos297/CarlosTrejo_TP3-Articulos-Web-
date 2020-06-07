@@ -58,9 +58,10 @@ namespace ArticulosWeb
                     ItemCarritoCompra objcarrito = new ItemCarritoCompra();
                     objcarrito.Id = articulo.Id;
                     objcarrito.NombreProducto = articulo.Nombre;
-                    objcarrito.CodigoProducto = articulo.Codigo;
+                    objcarrito.Descripcion = articulo.Descripcion;
                     objcarrito.Precio = articulo.Precio;
                     objcarrito.imagUrl = articulo.ImagenURL;
+
                     //total = articulo.Precio;
                     
                     

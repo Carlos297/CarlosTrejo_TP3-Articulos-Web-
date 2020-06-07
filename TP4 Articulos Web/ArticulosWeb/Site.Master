@@ -57,7 +57,7 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Listado de Articulos</a></li>
+                        <li><a runat="server" href="~/">Listado de Articulos </a></li>
                         <%--<li><a runat="server" href="~/About">Ir a ver el Carrito</a></li>--%>
                     </ul>
                 </div>

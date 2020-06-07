@@ -16,11 +16,14 @@
         <h3 align="right">Articulos en el carrito:  <% = carritoCompras.Count() %>  </h3>
         <table class="table">
             <tr>
-                <td>Nombre </td>
-                <td>Codigo Producto </td>
-                <td>Imagen </td>
-                <td>Precion Unitario </td>
-                <td>Acción </td>
+                <td></td>
+                <td>
+                    <h5>Nombre </h5>
+                </td>
+                <td><h5>Descripción</h5> </td>
+                <td><h5>Precio Unitario </h5> </td>
+                <td><h5>Acción </h5></td>
+
 
 
 
@@ -32,48 +35,39 @@
             %>
 
             <tr>
-                <td><% = item.NombreProducto %>  </td>
-                <td><% = item.CodigoProducto %>  </td>
                 <td>
                     <img src="<% = item.imagUrl %>" width="100" height="100">
                 </td>
+                <td><% = item.NombreProducto %>  </td>
+                <td><% = item.Descripcion %>  </td>
 
                 <td>$ <% = decimal.Round(item.Precio,2) %> </td>
 
                 <td>
                     <%--<a id="btnSumar<% = item.Id %>" href="About.aspx?idArt=<% = item.Id.ToString() %>" class="btn btn-primary" role="button">+</a>
                         <a id="btnRestar<% = item.Id %>" href="About.aspx?idArt=<% = item.Id.ToString() %>" class="btn btn-primary" role="button">-</a>--%>
-                    <a href="About.aspx?idQuitar=<% = item.Id.ToString() %>" class="btn btn-primary">Eliminar</a>
-                    
-                   
+                    <a href="About.aspx?idQuitar=<% = item.Id.ToString() %>" class="btn btn-danger">Eliminar</a>
+
+
                 </td>
-                
+
 
             </tr>
-               
+
 
             <% } %>
         </table>
 
-        <a href="Default.aspx" class="btn btn-primary">Continuar Comprando</a>
-        
+
+
         <h2 align="right">Total:  $<% = decimal.Round(total,2) %> </h2>
-        
-        
+
+
 
 
     </div>
 
-
-
-
-
-
-
-
-
-
-
+    <a href="Default.aspx" class="btn btn-primary btn-lg">Continuar Comprando</a>
 
 
 

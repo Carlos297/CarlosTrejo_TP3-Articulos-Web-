@@ -8,6 +8,7 @@ using Negocio1;
 using Negocio;
 using Dominio1;
 using TP2_CarlosTrejo;
+using System.Security.Cryptography.X509Certificates;
 
 namespace ArticulosWeb
 {
@@ -60,15 +61,36 @@ namespace ArticulosWeb
         protected void txtFiltro_TextChanged(object source, RepeaterCommandEventArgs e)
         {
 
+            List<Articulo> listaFiltrada; 
+
+            try
+            {
+                if (txtFiltro.Text == "")
+                {
+                    
+                }
+                else
+                {
+                    listaFiltrada = listaArticulos.FindAll(k => k.Descripcion.ToLower().Contains(txtFiltro.Text.ToLower()) || k.Nombre.ToLower().Contains(txtFiltro.Text.ToLower()));
+                    //dgvArticulos.DataSource = listaFiltrada;
+                }
+                ArticuloNegocio negocio = new ArticuloNegocio();
+                listaArticulos = negocio.listar2();
+                listaFiltrada = negocio.listar2() ;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
 
 
         }
 
 
 
-        protected void repetidor_ItemCommand(object source, RepeaterCommandEventArgs e)
-        {
+      
 
-        }
+        
     }
 }

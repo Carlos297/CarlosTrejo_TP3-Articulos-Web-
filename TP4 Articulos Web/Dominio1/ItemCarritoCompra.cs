@@ -14,7 +14,7 @@ namespace Dominio1
         public string CodigoProducto { get; set; }
         public string imagUrl { get; set; }
         public int Cantidad { get; set; }
-        public decimal? Precio { get; set; }
+        public decimal Precio { get; set; }
         public decimal? precioParcial { get; set; }  //cant * precio
 
     

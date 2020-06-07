@@ -13,7 +13,7 @@
 
     <div class="jumbotron">
 
-
+        <h3 align="right">Articulos en el carrito:  <% = carritoCompras.Count() %>  </h3>
         <table class="table">
             <tr>
                 <td>Nombre </td>
@@ -28,6 +28,7 @@
 
             <% foreach (var item in carritoCompras)
                 {
+                    total = total + item.Precio;
             %>
 
             <tr>
@@ -37,7 +38,7 @@
                     <img src="<% = item.imagUrl %>" width="100" height="100">
                 </td>
 
-                <td>$ <% = item.Precio %> </td>
+                <td>$ <% = decimal.Round(item.Precio,2) %> </td>
 
                 <td>
                     <%--<a id="btnSumar<% = item.Id %>" href="About.aspx?idArt=<% = item.Id.ToString() %>" class="btn btn-primary" role="button">+</a>
@@ -49,16 +50,16 @@
                 
 
             </tr>
-                
+               
 
             <% } %>
         </table>
 
         <a href="Default.aspx" class="btn btn-primary">Continuar Comprando</a>
-        <h3>Articulos en el carrito:  <% = carritoCompras.Count() %>  </h3>
-        <h3>Total a Pagar:  <%   %>  </h3>
         
-
+        <h2 align="right">Total:  $<% = decimal.Round(total,2) %> </h2>
+        
+        
 
 
     </div>

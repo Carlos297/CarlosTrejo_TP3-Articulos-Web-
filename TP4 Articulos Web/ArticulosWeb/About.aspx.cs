@@ -14,8 +14,9 @@ namespace ArticulosWeb
 {
     public partial class About : Page
     {
-        
+       
         public List<ItemCarritoCompra> carritoCompras { get; set; }
+        public decimal total;
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -60,6 +61,7 @@ namespace ArticulosWeb
                     objcarrito.CodigoProducto = articulo.Codigo;
                     objcarrito.Precio = articulo.Precio;
                     objcarrito.imagUrl = articulo.ImagenURL;
+                    //total = articulo.Precio;
                     
                     
 
@@ -68,14 +70,14 @@ namespace ArticulosWeb
 
 
                     carritoCompras.Add(objcarrito);
+
+                    
+
                     Session[Session.SessionID + "carritoCompras"] = carritoCompras;
+                    
+                    
 
-                    foreach ( var  aux in carritoCompras)
-                    {
-                        //decimal total = 0; 
-                        //total += decimal (carritoCompras[aux.Precio]);
-
-                    }
+                    
 
                 }
 

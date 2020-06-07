@@ -17,6 +17,8 @@ namespace ArticulosWeb
 
         public List<Articulo> listaArticulos { get; set; }
 
+        
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -30,9 +32,10 @@ namespace ArticulosWeb
 
                 Session[Session.SessionID + "listaArticulos"] = listaArticulos;
 
-                //cboPokemons.DataSource = listaPokemons;
+                //cboti.DataSource = listaPokemons;
                 //cboPokemons.DataBind();
 
+                
                 //cboPokemons.Items.Add("Rojo");
                 //cboPokemons.Items.Add("Azul");
                 //cboPokemons.Items.Add("Verde");
@@ -40,7 +43,8 @@ namespace ArticulosWeb
                 if (!IsPostBack)
                 { //pregunto si es la primera carga de la page
                     //txtNumeroPokemon.Text = "150";
-
+                    //cbotipoArt.DataSource = listaArticulos;
+                    //cbotipoArt.DataBind();
 
                     //esto es lo que necesitamos para el repeater.
                     //repetidor.DataSource = listaPokemons;
@@ -61,22 +65,27 @@ namespace ArticulosWeb
         protected void txtFiltro_TextChanged(object source, RepeaterCommandEventArgs e)
         {
 
-            List<Articulo> listaFiltrada; 
+             List<Articulo> listaFiltrada;
+           
+
+           
 
             try
             {
+                ArticuloNegocio negocio = new ArticuloNegocio();
                 if (txtFiltro.Text == "")
                 {
-                    
+                    listaFiltrada = listaArticulos;
                 }
                 else
                 {
                     listaFiltrada = listaArticulos.FindAll(k => k.Descripcion.ToLower().Contains(txtFiltro.Text.ToLower()) || k.Nombre.ToLower().Contains(txtFiltro.Text.ToLower()));
-                    //dgvArticulos.DataSource = listaFiltrada;
+                    
                 }
-                ArticuloNegocio negocio = new ArticuloNegocio();
-                listaArticulos = negocio.listar2();
-                listaFiltrada = negocio.listar2() ;
+
+                listaFiltrada = negocio.listar2();
+
+
             }
             catch (Exception ex)
             {

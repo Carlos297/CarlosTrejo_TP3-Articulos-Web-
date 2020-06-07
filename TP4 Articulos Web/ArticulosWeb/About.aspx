@@ -18,11 +18,11 @@
             <tr>
                 <td></td>
                 <td>
-                    <h5>Nombre </h5>
+                    <h4>Nombre </h4>
                 </td>
-                <td><h5>Descripción</h5> </td>
-                <td><h5>Precio Unitario </h5> </td>
-                <td><h5>Acción </h5></td>
+                <td><h4>Descripción</h4> </td>
+                <td><h4>Precio Unitario </h4> </td>
+                <td><h4>Acción </h4></td>
 
 
 
@@ -38,10 +38,10 @@
                 <td>
                     <img src="<% = item.imagUrl %>" width="100" height="100">
                 </td>
-                <td><% = item.NombreProducto %>  </td>
-                <td><% = item.Descripcion %>  </td>
+                <td class="lead"><% = item.NombreProducto %>  </td>
+                <td class="lead"><% = item.Descripcion %>  </td>
 
-                <td>$ <% = decimal.Round(item.Precio,2) %> </td>
+                <td class="lead">$ <% = decimal.Round(item.Precio,2) %> </td>
 
                 <td>
                     <%--<a id="btnSumar<% = item.Id %>" href="About.aspx?idArt=<% = item.Id.ToString() %>" class="btn btn-primary" role="button">+</a>
@@ -65,6 +65,14 @@
 
 
 
+    </div>
+
+    <div class="progress progress-striped active">
+        <div class="progress-bar" role="progressbar"
+            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+            style="width: 75%">
+            <span class="sr-only">75% completado</span>
+        </div>
     </div>
 
     <a href="Default.aspx" class="btn btn-primary btn-lg">Continuar Comprando</a>

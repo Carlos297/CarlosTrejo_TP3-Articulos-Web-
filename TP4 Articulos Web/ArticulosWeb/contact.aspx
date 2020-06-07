@@ -28,6 +28,14 @@
         </div>
     </div>
 
+    <div class="progress progress-striped active">
+        <div class="progress-bar" role="progressbar"
+            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+            style="width: 25%">
+            <span class="sr-only">25% completado</span>
+        </div>
+    </div>
+
     <a href="Default.aspx" class="btn btn-primary btn-lg">Regresar al Listado</a>
 
 </asp:Content>
